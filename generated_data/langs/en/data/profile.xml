@@ -3,14 +3,14 @@
   <profile id="Logistician" name="Logistician"/>
   <profile id="Translator" name="Translator"/>
   <profile id="Salesman" name="Salesman"/>
-  <profile id="ea" name="aut"/>
-  <profile id="pariatur" name="earum"/>
-  <profile id="non" name="qui"/>
-  <profile id="natus" name="omnis"/>
-  <profile id="sunt" name="optio"/>
-  <profile id="doloremque" name="natus"/>
-  <profile id="enim" name="in"/>
-  <profile id="ullam" name="neque"/>
-  <profile id="eum" name="dolor"/>
-  <profile id="aut" name="repudiandae"/>
+  <profile id="ad" name="iste"/>
+  <profile id="sequi" name="adipisci"/>
+  <profile id="facilis" name="ut"/>
+  <profile id="libero" name="quia"/>
+  <profile id="omnis" name="alias"/>
+  <profile id="dolor" name="molestiae"/>
+  <profile id="quod" name="velit"/>
+  <profile id="ut" name="facilis"/>
+  <profile id="itaque" name="eum"/>
+  <profile id="et" name="consectetur"/>
 </entity_profile>

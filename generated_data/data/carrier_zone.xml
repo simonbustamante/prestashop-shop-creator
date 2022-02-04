@@ -7,27 +7,27 @@
   <entities>
     <carrier_zone id_carrier="carrier_1" id_zone="Europe" id="1"/>
     <carrier_zone id_carrier="My_carrier" id_zone="Europe" id="2"/>
-    <carrier_zone id_carrier="laboriosam" id_zone="Europe" id="3"/>
+    <carrier_zone id_carrier="quam" id_zone="Europe" id="3"/>
     <carrier_zone id_carrier="carrier_1" id_zone="North_America" id="4"/>
     <carrier_zone id_carrier="My_carrier" id_zone="North_America" id="5"/>
-    <carrier_zone id_carrier="laboriosam" id_zone="North_America" id="6"/>
+    <carrier_zone id_carrier="quam" id_zone="North_America" id="6"/>
     <carrier_zone id_carrier="carrier_1" id_zone="Asia" id="7"/>
     <carrier_zone id_carrier="My_carrier" id_zone="Asia" id="8"/>
-    <carrier_zone id_carrier="laboriosam" id_zone="Asia" id="9"/>
+    <carrier_zone id_carrier="quam" id_zone="Asia" id="9"/>
     <carrier_zone id_carrier="carrier_1" id_zone="Africa" id="10"/>
     <carrier_zone id_carrier="My_carrier" id_zone="Africa" id="11"/>
-    <carrier_zone id_carrier="laboriosam" id_zone="Africa" id="12"/>
+    <carrier_zone id_carrier="quam" id_zone="Africa" id="12"/>
     <carrier_zone id_carrier="carrier_1" id_zone="Oceania" id="13"/>
     <carrier_zone id_carrier="My_carrier" id_zone="Oceania" id="14"/>
-    <carrier_zone id_carrier="laboriosam" id_zone="Oceania" id="15"/>
+    <carrier_zone id_carrier="quam" id_zone="Oceania" id="15"/>
     <carrier_zone id_carrier="carrier_1" id_zone="South_America" id="16"/>
     <carrier_zone id_carrier="My_carrier" id_zone="South_America" id="17"/>
-    <carrier_zone id_carrier="laboriosam" id_zone="South_America" id="18"/>
+    <carrier_zone id_carrier="quam" id_zone="South_America" id="18"/>
     <carrier_zone id_carrier="carrier_1" id_zone="Europe_out_E_U" id="19"/>
     <carrier_zone id_carrier="My_carrier" id_zone="Europe_out_E_U" id="20"/>
-    <carrier_zone id_carrier="laboriosam" id_zone="Europe_out_E_U" id="21"/>
+    <carrier_zone id_carrier="quam" id_zone="Europe_out_E_U" id="21"/>
     <carrier_zone id_carrier="carrier_1" id_zone="Central_America_Antilla" id="22"/>
     <carrier_zone id_carrier="My_carrier" id_zone="Central_America_Antilla" id="23"/>
-    <carrier_zone id_carrier="laboriosam" id_zone="Central_America_Antilla" id="24"/>
+    <carrier_zone id_carrier="quam" id_zone="Central_America_Antilla" id="24"/>
   </entities>
 </entity_carrier_zone>

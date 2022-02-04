@@ -19,6 +19,6 @@
   </fields>
   <entities>
     <carrier id="My_carrier" id_reference="2" active="1" shipping_handling="1" range_behaviour="0" is_free="0" shipping_external="0" need_range="0" shipping_method="0" max_width="0" max_height="0" max_depth="0" max_weight="0" grade="0" name="My carrier" url=""/>
-    <carrier id_reference="1" id_tax_rules_group="5" id="laboriosam" name="laboriosam" url="http://lagarde.com/dolores-amet-et-neque-quibusdam-quas" active="0" shipping_handling="1" range_behavior="0" is_free="0" shipping_external="0" need_range="1" shipping_method="1" max_width="27" max_height="59" max_depth="64" grade="9"/>
+    <carrier id_reference="1" id_tax_rules_group="1" id="quam" name="quam" url="http://renaud.fr/et-quasi-unde-reprehenderit-occaecati-qui-pariatur-eius" active="1" shipping_handling="0" range_behavior="1" is_free="0" shipping_external="1" need_range="1" shipping_method="2" max_width="96" max_height="34" max_depth="61" grade="2"/>
   </entities>
 </entity_carrier>

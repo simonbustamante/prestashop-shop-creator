@@ -5,6 +5,6 @@
     <field name="color"/>
   </fields>
   <entities>
-    <attribute id_attribute_group="1" id="1" color="#ef9e62"/>
+    <attribute id_attribute_group="1" id="1" color="#332afc"/>
   </entities>
 </entity_attribute>

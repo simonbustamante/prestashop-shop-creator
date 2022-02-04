@@ -5,6 +5,6 @@
     <field name="custom"/>
   </fields>
   <entities>
-    <feature_value id_feature="1" id="1" custom="0"/>
+    <feature_value id_feature="1" id="1" custom="1"/>
   </entities>
 </entity_feature_value>

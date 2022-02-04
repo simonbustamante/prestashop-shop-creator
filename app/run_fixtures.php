@@ -9,6 +9,8 @@ include("connections_custom.php");
 include("customer_custom.php");
 include("delivery_custom.php");
 include("guest_custom.php");
+include("manufacturer_reproduce_images.php");
+include("manufacturer_rename_images.php");
 include("manufacturer_custom.php");
 include("orders_custom.php");
 include("product_custom.php");

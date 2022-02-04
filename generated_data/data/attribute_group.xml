@@ -5,6 +5,6 @@
     <field name="is_color_group"/>
   </fields>
   <entities>
-    <attribute_group id="1" group_type="radio" is_color_group="1"/>
+    <attribute_group id="1" group_type="select" is_color_group="1"/>
   </entities>
 </entity_attribute_group>

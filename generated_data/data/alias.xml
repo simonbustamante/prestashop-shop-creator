@@ -6,6 +6,6 @@
     <field name="active"/>
   </fields>
   <entities>
-    <alias id="magni" alias="magni" search="provident" active="0"/>
+    <alias id="voluptatum" alias="voluptatum" search="corporis" active="1"/>
   </entities>
 </entity_alias>

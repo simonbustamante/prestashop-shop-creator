@@ -13,6 +13,6 @@
     <field name="active"/>
   </fields>
   <entities>
-    <store id_country="PH" id_state="manila" id="manila" city="manila" postcode="28 669" latitude="14.6006" longitude="120.982" email="simon.bustamante@gmail.com" phone="" fax="" active="1" post_code="1000"/>
+    <store id_country="PH" id_state="manila" id="manila" city="manila" postcode="50 474" latitude="14.6006" longitude="120.982" email="simon.bustamante@gmail.com" phone="" fax="" active="1" post_code="1000"/>
   </entities>
 </entity_store>
