@@ -1,14 +1,14 @@
-<?php
-$file_name = "manufacturer.xml"; 
+<?php 
+$file_name = "product_supplier.xml";
 $file = "./generated_data/data/".$file_name;
 $xml = file_get_contents($file);
 
 $entity = new SimpleXMLElement($xml,LIBXML_PARSEHUGE);
 $count = 1;
-foreach($entity->entities->manufacturer as $attribute)
+foreach($entity->entities->product_supplier as $attribute)
 {
-    $attribute['id'] = "Farm ".$count;
-    $attribute['name'] = "Farm ".$count;
+    $attribute['id_supplier'] = "Mayani";
+    $attribute['id_product_attribute'] = $count;
     $count = $count + 1;
 }
 
