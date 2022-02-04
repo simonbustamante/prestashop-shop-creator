@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_range_weight>
+  <fields class="RangeWeight">
+    <field name="id_carrier" relation="carrier"/>
+    <field name="delimiter1"/>
+    <field name="delimiter2"/>
+  </fields>
+  <entities>
+    <range_weight id_carrier="carrier_1" id="1" delimiter2="6570" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="2" delimiter2="2883" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="3" delimiter2="1246" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="4" delimiter2="4623" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="5" delimiter2="3402" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="6" delimiter2="5492" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="7" delimiter2="8040" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="8" delimiter2="9513" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="9" delimiter2="7073" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="10" delimiter2="1095" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="11" delimiter2="6674" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="12" delimiter2="9735" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="13" delimiter2="2267" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="14" delimiter2="2964" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="15" delimiter2="9377" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="16" delimiter2="4690" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="17" delimiter2="5315" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="18" delimiter2="4566" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="19" delimiter2="7139" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="20" delimiter2="3046" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="21" delimiter2="4102" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="22" delimiter2="4019" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="23" delimiter2="9291" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="24" delimiter2="9024" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="25" delimiter2="9876" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="26" delimiter2="2920" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="27" delimiter2="6637" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="28" delimiter2="4435" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="29" delimiter2="1408" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="30" delimiter2="3130" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="31" delimiter2="1390" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="32" delimiter2="1552" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="33" delimiter2="8503" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="34" delimiter2="1739" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="35" delimiter2="9894" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="36" delimiter2="3661" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="37" delimiter2="9608" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="38" delimiter2="3643" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="39" delimiter2="4337" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="40" delimiter2="4983" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="41" delimiter2="1458" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="42" delimiter2="3403" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="43" delimiter2="1099" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="44" delimiter2="1366" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="45" delimiter2="5089" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="46" delimiter2="3554" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="47" delimiter2="7281" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="48" delimiter2="1116" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="49" delimiter2="1247" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="50" delimiter2="5663" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="51" delimiter2="5042" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="52" delimiter2="6163" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="53" delimiter2="4220" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="54" delimiter2="9075" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="55" delimiter2="4693" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="56" delimiter2="3961" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="57" delimiter2="1676" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="58" delimiter2="7240" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="59" delimiter2="3322" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="60" delimiter2="5553" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="61" delimiter2="7596" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="62" delimiter2="5863" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="63" delimiter2="2664" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="64" delimiter2="4383" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="65" delimiter2="1601" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="66" delimiter2="7373" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="67" delimiter2="6236" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="68" delimiter2="5749" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="69" delimiter2="8001" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="70" delimiter2="5595" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="71" delimiter2="5886" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="72" delimiter2="9431" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="73" delimiter2="1215" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="74" delimiter2="5657" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="75" delimiter2="4683" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="76" delimiter2="9177" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="77" delimiter2="1813" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="78" delimiter2="6834" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="79" delimiter2="5653" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="80" delimiter2="2370" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="81" delimiter2="9541" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="82" delimiter2="2439" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="83" delimiter2="9849" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="84" delimiter2="6567" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="85" delimiter2="1979" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="86" delimiter2="5568" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="87" delimiter2="8913" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="88" delimiter2="7856" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="89" delimiter2="3451" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="90" delimiter2="1773" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="91" delimiter2="1624" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="92" delimiter2="2141" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="93" delimiter2="6292" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="94" delimiter2="9380" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="95" delimiter2="8128" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="96" delimiter2="4158" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="97" delimiter2="9372" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="98" delimiter2="9332" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="99" delimiter2="2698" delimiter1="0"/>
+    <range_weight id_carrier="laboriosam" id="100" delimiter2="1887" delimiter1="0"/>
+  </entities>
+</entity_range_weight>

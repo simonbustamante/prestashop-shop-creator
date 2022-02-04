@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_feature_value>
+  <fields class="FeatureValue">
+    <field name="id_feature" relation="feature"/>
+    <field name="custom"/>
+  </fields>
+  <entities>
+    <feature_value id_feature="1" id="1" custom="0"/>
+  </entities>
+</entity_feature_value>

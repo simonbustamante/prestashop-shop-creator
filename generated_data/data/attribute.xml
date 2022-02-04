@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_attribute>
+  <fields class="Attribute">
+    <field name="id_attribute_group" relation="attribute_group"/>
+    <field name="color"/>
+  </fields>
+  <entities>
+    <attribute id_attribute_group="1" id="1" color="#ef9e62"/>
+  </entities>
+</entity_attribute>

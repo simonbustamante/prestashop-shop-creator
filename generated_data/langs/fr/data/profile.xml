@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+  <profile id="Logistician" name="Logistician"/>
+  <profile id="Translator" name="Translator"/>
+  <profile id="Salesman" name="Salesman"/>
+  <profile id="ea" name="eius"/>
+  <profile id="pariatur" name="quaerat"/>
+  <profile id="non" name="minus"/>
+  <profile id="natus" name="aperiam"/>
+  <profile id="sunt" name="est"/>
+  <profile id="doloremque" name="doloribus"/>
+  <profile id="enim" name="ex"/>
+  <profile id="ullam" name="porro"/>
+  <profile id="eum" name="qui"/>
+  <profile id="aut" name="deleniti"/>
+</entity_profile>

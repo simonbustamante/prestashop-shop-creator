@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_category_group>
+  <fields primary="id_category, id_group">
+    <field name="id_category" relation="category"/>
+    <field name="id_group" relation="group"/>
+  </fields>
+  <entities>
+    <category_group id_category="Home" id_group="Visitor" id="1"/>
+    <category_group id_category="Farming" id_group="Visitor" id="2"/>
+    <category_group id_category="Fishing" id_group="Visitor" id="3"/>
+    <category_group id_category="Cattle Raising" id_group="Visitor" id="4"/>
+    <category_group id_category="Home" id_group="Guest" id="5"/>
+    <category_group id_category="Farming" id_group="Guest" id="6"/>
+    <category_group id_category="Fishing" id_group="Guest" id="7"/>
+    <category_group id_category="Cattle Raising" id_group="Guest" id="8"/>
+    <category_group id_category="Home" id_group="Customer" id="9"/>
+    <category_group id_category="Farming" id_group="Customer" id="10"/>
+    <category_group id_category="Fishing" id_group="Customer" id="11"/>
+    <category_group id_category="Cattle Raising" id_group="Customer" id="12"/>
+  </entities>
+</entity_category_group>
