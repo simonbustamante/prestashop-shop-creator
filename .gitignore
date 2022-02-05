@@ -1,4 +1,4 @@
 /app/config/config.yml
 /composer.phar
 /vendor/
-#/generated_data/
+/generated_data/

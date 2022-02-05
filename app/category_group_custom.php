@@ -2,29 +2,17 @@
 $file_name = "category_group.xml";
 $file = "./generated_data/data/".$file_name;
 $xml = file_get_contents($file);
-$category = ['Home','Farming','Fishing','Cattle Raising'];
+$category = ['Root','Home','Farming','Fishing','Cattle Raising'];
 $groups = ['Visitor','Guest','Customer'];
 $entity = new SimpleXMLElement($xml);
 $count = 1;
 $catNum = 0;
 $group = 0;
 
-//if you need to unset some nodes, uncomment this
-/*$data = $entity->entities;
-
-for($i=1;$i<=3;$i++)
-{
-    unset($data->xpath('category_group[@id="'.$i.'"]')[0]->{0});
-    system('clear');
-    echo "limpiando nodos que no se necesitan ".$i."\n";
-}
-
-file_put_contents($file,$data->asXML());
-*/
 
 foreach($entity->entities->category_group as $attribute)
 {
-    if($catNum<4)
+    if($catNum<5)
     {
         $attribute['id_category'] = $category[$catNum];
         $attribute['id_group'] = $groups[$group];

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<entity_carrier>
-  <carrier id="My_carrier" delay="Delivery next day!"/>
-  <carrier id="quam" delay="nihil delectus dignissimos"/>
-</entity_carrier>

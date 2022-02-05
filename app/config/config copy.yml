@@ -1,0 +1,40 @@
+# This file is auto-generated during the composer install
+parameters:
+    shop_id: 1
+    customers: 13000
+    manufacturers: 10000
+    suppliers: 1
+    addresses: 13001
+    aliases: 1
+    categories: 3
+    warehouses: 1
+    carriers: 1
+    specific_prices: 40000
+    attribute_groups: 1
+    products: 40000
+    attributes: 1
+    carts: 52000
+    cart_rules: 1
+    customizations: 1
+    features: 1
+    feature_values: 1
+    orders: 4
+    guests: 5000
+    order_histories: 5
+    range_prices: 100
+    range_weights: 100
+    product_attributes: 1
+    images: 1
+    order_messages: 100
+    deliveries: 15000
+    connections: 20000
+    product_suppliers: 1
+    order_carriers: 1
+    order_details: 4
+    feature_products: 1
+    stores: 1
+    profiles: 10
+    stock_availables: 1
+    langs:
+        - fr_FR
+        - en_US

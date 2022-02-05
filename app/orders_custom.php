@@ -11,7 +11,7 @@ $id_cart = 1;
 foreach($entity->entities->orders as $attribute)
 {
     $attribute['id_cart'] = $id_cart++;
-    if($id_cart > 40000) $id_cart = 1;
+    if($id_cart > 52000) $id_cart = 1;
 
     if($id_customer <= 8000)
     {

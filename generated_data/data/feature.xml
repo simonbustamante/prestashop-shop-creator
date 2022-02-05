@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<entity_feature>
-  <fields class="Feature">
-    <field name="position"/>
-  </fields>
-  <entities>
-    <feature id="1" position="67"/>
-  </entities>
-</entity_feature>
