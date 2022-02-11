@@ -30,7 +30,7 @@ composer install
 cp app/config/config_BACK.yml app/config/config.yml
 ```
 
-Generar Datos Base
+## Generar Datos Base
 --------
 ```
 php app/console.php
@@ -38,271 +38,53 @@ php app/console.php
 ##### Espere mientras termina el proceso
 
 
-Entity Model syntax
+## Los datos generados se encuentran basados en el modelo entidad de Prestashop
 --------
-Each entity model is described in the src/Model directory.
+Cada  modelo entidad  es descrito en el directorio src/Model. La estructura de generada contine la siguiente información:
 
-If you want to add a new Model, create of file with the same name the class it's related to, and an entry in the 
-app/config/config.yml.dist file (the name should be the pluralized & tablized version of the model name).
+# This file is auto-generated during the composer install
 
+```
+parameters:
+    shop_id: 1
+    customers: 13000
+    manufacturers: 10000
+    suppliers: 1
+    addresses: 13001
+    aliases: 1
+    categories: 3
+    warehouses: 1
+    carriers: 1
+    specific_prices: 40000
+    attribute_groups: 1
+    products: 40000
+    attributes: 1
+    carts: 52000
+    cart_rules: 1
+    customizations: 1
+    features: 1
+    feature_values: 1
+    orders: 4
+    guests: 5000
+    order_histories: 5
+    range_prices: 100
+    range_weights: 100
+    product_attributes: 1
+    images: 1
+    order_messages: 100
+    deliveries: 15000
+    connections: 20000
+    product_suppliers: 1
+    order_carriers: 1
+    order_details: 4
+    feature_products: 1
+    stores: 1
+    profiles: 10
+    stock_availables: 1
+    langs:
+        - fr_FR
+        - en_US
 
-The model file is in yml format, and contains three main section:
-
-1. <b>The fields section (required)</b>
-
-    This section describes the list of fields of an entity (not language related).
-    
-    Available options in this section:
-    
-    1. <i><b>columns (required) </b></i>
-
-        Describe each field of the entity we want to generate.
-        
-        Syntax:
-        ```yaml
-        columns:
-            id:
-              type: increment        
-            id_state:
-              relation: State
-            exclusive_fields:
-              id_customer:
-                relation: Customer
-              id_manufacturer:
-                relation: Manufacturer
-              id_supplier:
-                relation: Supplier
-            id_warehouse:
-              value: 0
-            alias:
-              type: words
-              args:
-                - 10 #nb words
-            id_customer:
-              relation: Customer
-              conditions: 
-               id_guest: 1
-            name:
-              type: word
-              args:
-                - 10 #nb chars
-              hidden: true   
-            price:
-              type: numberBetween
-              args:
-                - 1 #start
-                - 1000 #stop
-            wholesale_price:
-              value: '{price}/100'              
-        ```
-        1. <u>the 'type' property</u>
-            
-            * 'increment' is a simple autoincrement.
-            
-            * 'conditionalValue' allow to generate value depending on a condition.
-            Example:
-                ```yaml
-                default_on:
-                  type: conditionalValue
-                  args:
-                    - isNewValue({id_product}) # condition
-                    - 1 # value if condition is true
-                    - null # value if condition is false
-                ```
-             The isNewValue is a special function which checks if the value related to the field {id_product} 
-             has changed since the last time we have generated an entity.   
-            
-            * other properly value allows to generate random value. , another types
-            available are described from the faker module: https://github.com/FakerPHP/Faker 
-            
-            If you need to pass an argument to a faker function, just add the 'args:' tag like in the above example.
-            
-            If you want to generate a field, but hide it from the final result, add the "hidden: true" property
-            (only useful if the field in question is referenced as an "id", but only present in the field_lang)
-            
-        2. <u>the 'relation' property</u>
-        
-            The 'relation' property indicates it should generates the value from an another entity (it will use a value
-            from the 'id' of the other entity).
-            
-            If the 'generate_all' property is used in conjunction with a relation type, it means we should use
-            all the existing relations instead of just choosing a random one. It's especially usefull if we want for
-            example generate combinations for every product in the database:
-            
-            ```yaml
-            fields:
-                class: 'Combination'
-                columns:
-                    id:
-                      type: increment
-                    id_product:
-                      relation: Product
-                      generate_all: true
-            ```
-            
-            If the 'conditions' property is used in conjunction with a relation type, it means all the fields specified 
-            should have the specified value in the related entity:
-            
-            ```yaml
-            fields:
-                class: 'Guest'
-                columns:
-                    id:
-                      type: increment
-                id_customer:
-                  relation: Customer
-                  conditions:
-                    is_guest: 1
-            ```
-            
-        3. <u>the 'value' property</u>
-                         
-            The 'value' property sets a specific value for the column. It could also be a reference to another
-            column, or a mathematical expression, like the "wholesale_price" in the example above.
-            
-        4. <u>the 'exclusive_fields' property</u>
-                 
-            Some columns should have a value only if other column are not set.
-            That's the purpose of this property. In the example above only one randomly chosen field 
-            among id_customer/id_manufacturer/id_supplier will be set.
-    
-    2. <i><b>class (optional) </b></i>
-    
-        The name of the class related to the entity.
-        
-        Example: 
-            
-        ```yaml
-        class: 'Carrier'
-        ```
-    3. <i><b>sql (optional)</b></i>
-        
-        Sql argument when want to add to help debugging
-        
-        Example:
-        ```yaml
-        sql: 'a.id_carrier > 1'
-        ```
-    
-    4. <i><b>id</b></i>
-    
-        The 'id' tag sets which field inside the 'columns' property should be considered as a the reference unique field 
-        for relation resolution.
-        
-        Example:
-        ```yaml
-        id: 'name'
-        ```
-     
-    5. <i><b>primary</b></i>
-    
-        When the primary tag is used, the script iterate over all the existing values, excepted if there's a 
-        'generate_all: true' tag present (the fields in the 'primary' tag should be described as relations to other 
-        entities)
-        
-        Example:
-        ```yaml
-        primary: 'id_carrier, id_group'
-        columns:
-            id_carrier:
-              relation: Carrier
-            id_group:
-              relation: Group
-       ```      
-     
-    6. <i><b>image (optional)</b></i>
-        
-        Generate random images in the given relative path of the generated_data/img/ directory for each entity.
-        It's used in conjonction with image_width, image_height and image_category.
-        
-        Example:
-        ```yaml
-       image: 'c'
-       image_width: 141
-       image_height: 180
-       image_category: abstract
-        ```
-           
-        Possible image_category are:
-        ```  
-        abstract
-        animals
-        business
-        cats
-        city
-        food
-        night
-        life
-        fashion
-        people
-        nature
-        sports
-        technics 
-        transport
-        ```                                        
-
-2. <b>The fields_lang section (optional)</b>
-
-    This section describes the list of fields present in the language related part of the entity (if any).
-    
-    You can set an optional 'id_shop' tag and a 'columns' property which support the type same 'value' and 'type' than the 
-    'fields' section.
-    
-    Example:
-    ```yaml
-    fields_lang:
-        id_shop: 1
-        columns:
-            name:
-              type: words
-              args:
-                - 6
-            description:
-              type: sentence
-            description_short:
-              type: sentence
-              args:
-                - 4
-            link_rewrite:
-              type: slug
-            available_now:
-              value: In stock
-    ```  
-
-3. <b>The entities section (optional)</b>
-
-    This section describes any custom entities we want to create (no random generation for those one).
-    
-    The key of each entry used will be used as the 'id' of the entity
-
-    Example:
-    ```yaml
-    entities:
-        My_carrier:
-            fields:
-                id_reference: 2
-                active: 1
-                shipping_handling: 1
-                range_behaviour: 0
-                is_free: 0
-                shipping_external: 0
-                need_range: 0
-                shipping_method: 0
-                max_width: 0
-                max_height: 0
-                max_depth: 0
-                max_weight: 0
-                grade: 0
-                name: My carrier
-                url: ~
-            fields_lang:
-                delay: Delivery next day!
-    ```
+```
 
 
-Default xml data
---------
-If you want to use a default xml file instead of generating one using the entity model, just put it in the default_data 
-directory.
-
-It will be automatically parsed by the script and will be taken into account for the existing entity relations.
