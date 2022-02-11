@@ -24,7 +24,7 @@ cd prestashop-shop-creator
 composer install
 ```
 
-#### Presionar “enter” a todas las opciones por defecto
+##### Presionar “enter” a todas las opciones por defecto y restaurar la configuración config_BACK.yml la cual contiene la  estructura de la data utilizada en esta simulación
 
 ```
 cp app/config/config_BACK.yml app/config/config.yml
