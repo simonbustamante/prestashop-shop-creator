@@ -1,4 +1,4 @@
-About PrestaShop Shop Generator
+# About PrestaShop Shop Generator
 --------
 
 La plataforma B2C se encuentra basada en “Prestashop”   el cual es un sistema de gestión de contenidos (CMS) libre y de código abierto pensado para construir desde cero tiendas en línea de comercio electrónico. Enfocado para permitir crear tiendas en línea desde pequeñas empresas a grandes corporaciones. Cuenta con un amplio mercado de temas con los que personalizar la tienda y más de 5000 módulos, entre gratuitos y de pago, con los que adaptar las funcionalidades propias de la herramienta.
@@ -6,11 +6,11 @@ La plataforma B2C se encuentra basada en “Prestashop”   el cual es un sistem
 Por otra parte “Prestashop” como compañía de servicios tecnológicos realiza pruebas de rendimiento sobre su plataforma generando data aleatoria y en cantidades que pueden ir de pequeñas a muy grandes. Para hacer esto, se usa la herramienta “prestashop-shop-creator” que genera una lista de carpetas y archivos xml en el directorio “generated_data” que debe copiarse en el directorio /install/fixtures/fashion de PrestaShop, para generar en la instalación una tienda inicializada con el especificado número de entidades.
 
 
-Instalación y configuración
+# Instalación y configuración
 
-# Clonar proyecto prestashop-shop-creator
+## Clonar proyecto prestashop-shop-creator
 
-git clone https://github.com/simonbustamante/prestashop-shop-creator.git
+### git clone https://github.com/simonbustamante/prestashop-shop-creator.git
 
 --------
 
