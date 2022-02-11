@@ -30,13 +30,12 @@ composer install
 cp app/config/config_BACK.yml app/config/config.yml
 ```
 
-How to run the script
+Generar Datos Base
 --------
 ```
 php app/console.php
 ```
-Make sure to have enough memory allocated to php, as it could eat a lot of memory depending on the number of entities
-you want to generate
+##### Espere mientras termina el proceso
 
 
 Entity Model syntax
