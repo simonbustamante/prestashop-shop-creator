@@ -10,8 +10,9 @@ Por otra parte “Prestashop” como compañía de servicios tecnológicos reali
 
 ## Clonar proyecto prestashop-shop-creator
 
-### git clone https://github.com/simonbustamante/prestashop-shop-creator.git
-
+```
+git clone https://github.com/simonbustamante/prestashop-shop-creator.git
+```
 --------
 
 To setup the configuration of the module, just run
