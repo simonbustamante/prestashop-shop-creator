@@ -15,11 +15,20 @@ git clone https://github.com/simonbustamante/prestashop-shop-creator.git
 ```
 --------
 
-To setup the configuration of the module, just run
+## Instalar el aplicativo
+
+```
+cd prestashop-shop-creator
+```
 ```
 composer install
 ```
-This will generates a configuration file in app/config/config.yml
+
+#### Presionar “enter” a todas las opciones por defecto
+
+```
+cp app/config/config_BACK.yml app/config/config.yml
+```
 
 How to run the script
 --------
