@@ -35,7 +35,7 @@ cp app/config/config_BACK.yml app/config/config.yml
 ```
 php app/console.php
 ```
-##### Espere mientras termina el proceso
+##### Espere mientras termina el proceso. El directorio “generated_data” que debe copiarse en el directorio /install/fixtures/fashion de PrestaShop
 
 
 ## Los datos generados se encuentran basados en el modelo entidad de Prestashop
