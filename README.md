@@ -42,7 +42,7 @@ php app/console.php
 --------
 Cada  modelo entidad  es descrito en el directorio src/Model. La estructura de generada contine la siguiente información:
 
-# This file is auto-generated during the composer install
+# config_BACK.yml
 
 ```
 parameters:
